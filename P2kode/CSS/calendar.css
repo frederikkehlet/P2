@@ -1,0 +1,249 @@
+/* -------- CSS TIL HTML OG BODY ----- */
+html,body {
+	font-family: 'Source Sans Pro', sans-serif; 
+	margin: 0;
+	height: 100%;
+	font-size: 16px;
+}
+/* ------- END HTML OG BODY --------- */
+/* --------- CSS TIL HEADER ----------*/
+.wrapper {
+	width: 99%;
+}
+.header {
+	position: fixed;
+	top: 0;
+	right: 0;
+	left: 0;
+	padding-top: 4px;
+	background-color: #bf0d0d;
+	border-bottom: 1px solid white;
+	overflow: auto;
+	box-shadow: 0 3px 6px darkgrey;
+}
+.logo {
+	display: inline-block;
+}
+.logo img {
+	padding-left: 10px;
+	width: 70px;
+	height: 70px;
+}
+.email {
+	display: inline-block;
+	color: white;
+	position: relative;
+	left: 15px;
+	bottom: 27px;
+	font-size: 20px;
+}
+.email a {
+	color: white;
+	font-style: italic;
+	text-decoration: none;
+}
+.email a:hover {
+	text-decoration: underline;
+}
+/* --------- END HEADER ----------- */
+/* ------- CSS TIL MAIN -----------*/
+.main {
+	margin-right: auto;
+	margin: left: auto;
+	min-height: 100%;
+	margin-top: 8%;
+	margin-bottom: -7%;
+}
+.Regtekst {
+	display: block;
+	float: right;
+	margin-right: 11%;
+	margin-top: -29%;
+	font-size:17px;
+}
+.button {
+	display: inline-block;
+	float: right;
+}
+.button button {
+	margin-top: 18px;
+}
+button {
+	background-color: white;
+	width: 160px;
+	padding: 6px 0;
+	border-radius: 40px;
+	border: 2px solid white;
+	margin-right: 20px;
+	font-size: 18px;
+	color:#BF0D0D;
+	text-align: center;
+	text-decoration: none;
+}
+.button button:hover {
+	background-color: #BF0D0D;
+	color:white;
+	border:2px solid white;
+	cursor: pointer;
+}
+.disabled {
+	pointer-events: none;
+	cursor: default;
+}
+form {
+	font-size: 18px;
+	display: block;
+	width: 35%;
+	margin-top: 0;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 10px;
+	border: 1px solid grey;
+	color: grey;
+	padding-bottom: 1%; 
+}
+label {
+	float: left;
+	clear: left;
+	display: block;
+	width: 100px;
+	padding-right: 20px;
+	margin-top: 8px;
+	margin-left: 20px;
+	text-align: right;
+}
+.check {
+	font-size: 13.5px;
+	display: inline-block;
+	width: 400px;
+	margin-top: 10px;
+	margin-left: 50px;
+	margin-bottom: -25px;
+}
+.asterisk {
+	color: #bf0d0d;
+}
+.input {
+	float: right;
+	clear: right;
+	margin-right: -180px;
+	position: relative;
+	bottom: 29px;
+}
+input[type='checkbox']:focus {
+	border: 1px solid black;
+	box-shadow: 0 0 0 0 white;
+}
+.acceptLink {
+	color: #bf0d0d;
+	text-decoration: none;
+}
+.acceptLink:hover {
+	text-decoration: underline;
+}
+input {
+	font-size: 16px;
+	display: block;
+	width: 250px;
+	margin-top: 0px;
+	padding-top: 8px;
+	padding: 10px;
+	border-radius: 6px;
+	border: 1px solid grey; 
+}
+input:focus {
+	outline: none !important;
+    border:1px solid #bf0d0d;
+    box-shadow: 0 0 10px #bf0d0d;
+}
+input[type="submit"] {
+	background-color: #bf0d0d;
+	width: 150px;
+	padding: 8px 0;
+	border-radius: 40px;
+	border: 2px solid #bf0d0d;
+	margin-right: 20px;
+	font-size: 18px;
+	color:white;
+	text-decoration: none;
+}
+input[type="submit"]:hover {
+	background-color: white;
+	color:#bf0d0d;
+	border:2px solid #bf0d0d;
+	cursor: pointer;
+}
+.submit {
+	margin-top: 15px;
+	width: 100%;
+	margin-left: 260px;
+}
+.submit p {
+	float: left;
+}
+h1, h2 {
+	text-align: center;
+	color: grey;
+}
+/*------------ END MAIN -------------*/
+/* -------- CSS TIL FOOTER --------- */
+.footer {
+	display: block;
+	width: 100%;
+	height: 100px;
+	background-color: #bf0d0d;
+	color: white;
+	border-radius: 0px;
+	padding-top: 1%;
+	padding-bottom: 3%;
+	font-size: 17px;
+}
+.info {
+	width: 400px;
+	margin-left: 32%;
+}
+.float-left {
+	padding-top: 0;
+	display: block;
+	float: left;
+	clear: left;
+}
+.float-right {
+	padding-top: 0;
+	display: block;
+	float: right;
+}
+li {
+	list-style-type: none;
+}
+/* ---------- END FOOTER ----------- */
+/* ---------- CSS til kalender----------- */
+
+.booking {
+	width: 45%;
+	font-size: 18px;
+	box-shadow: 0px 1px 5px darkgrey;
+}
+.main table {
+	padding-left: 30px;
+	border-spacing: 0px;
+	border-collapse: collapse;
+}
+.main table th {
+	padding-top: 40%;
+	text-align: center;
+	background-color: #bf0d0d;
+	color: white;
+}
+.main table th,
+table td {
+	text-align: center;
+	border: 1px solid grey;
+	padding: 14px;
+	font-size: 20;
+}
+.main table tbody td {
+	color: black;
+	font-size: 20;
+}
+

@@ -1,0 +1,56 @@
+body {
+	font-family: 'Arial';
+} 
+h2 {
+	width: 100%;
+	text-align: center;
+}
+h2 a {
+	color: #a0060e;
+	text-decoration: none;
+}
+h2 a:hover {
+	text-decoration: underline;
+}
+table {
+	margin: 0 auto;
+	width: 70%;
+	border-collapse: collapse;
+	border: 1px solid white;
+	box-shadow: 0px 2px 2px 1.5px grey;
+}
+table a {
+	font-size: 17px;
+	color: #a0060e;
+	padding: 3px;
+	text-decoration: none;
+}
+th {
+	padding: 18px;
+	background-color: #a0060e;
+	color: white;
+}
+td {
+	padding-bottom: 50px;
+	background-color: lightgrey;
+}
+.today {
+	background: #a0060e;
+}
+button {
+	background-color: white;
+	border: 1px solid #a0060e;
+	border-radius: 2px;
+	box-shadow: none;
+}
+button a:hover {
+	background-color: #a0060e;
+	color: white;
+}
+fieldset {
+	float: left;
+	clear: left;
+}
+#dates {
+	display:none;
+}
